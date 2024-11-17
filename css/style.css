@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif; /* Elegante kerstachtige lettertype */
+}
+
+/* Algemene instellingen voor de body */
+body {
+    background-color: #27452B; /* Diepgroen als basiskleur */
+    color: #FFFFFF;
+    background-image: url('https://www.transparenttextures.com/patterns/stardust.png'); /* Sneeuwvlokachtig patroon */
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container met een kerstachtige uitstraling */
+.container {
+    background-color: #5A2328; /* Dieprood */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    border: 3px solid #FFD700; /* Goudkleurige rand */
+}
+
+/* Koptekst in gouden kerststijl */
+h2 {
+    font-size: 1.8em;
+    color: #FFD700; /* Gouden tekst */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Subtiele schaduw */
+}
+
+/* Formulierstijl */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Invoerveld stijl */
+input[type="text"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #FFD700; /* Goudkleurige rand */
+    border-radius: 5px;
+    background-color: #FFFFFF; /* Witte achtergrond */
+    color: #5A2328; /* Dieprood tekst */
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Knoppen met feestelijke kleuren */
+button {
+    background-color: #FFD700; /* Goud */
+    color: #5A2328; /* Dieprood tekst */
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer;
+    font-size: 1em;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s, background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFF5C3; /* Lichter goud */
+    transform: scale(1.05);
+}
+
+/* Foutmelding */
+.error {
+    color: #FF6347; /* Kerstrood voor foutmeldingen */
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Footer met kerstgroet */
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #FFD700; /* Goudkleurige tekst */
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsiviteit */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
